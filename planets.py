@@ -292,7 +292,62 @@ exoplanets = {
         "rp":[0.0699,0.001,0.001],  ### Revised from Spitzer
         "a":[27.0,1.1,1.1  ], ### Old, from K2
         "inc":[ 89.00, 0.46,0.24 ], ### Old from K2
-        "b" : [0.36,0.11,0.19]  ### Revised, from Spitzer
+        "b" : [0.36,0.11,0.19],  ### Revised, from Spitzer
+        "Teq":[668.,22,22]
+    },
+
+    "c": {
+        "Rp": [0.499 * un.R_jup, 0.032 * un.R_jup, 0.029 * un.R_jup],  ### From K2
+        # "Mp":[None, None, None ], #### 3 sigma upper limit 2.2 M jup
+        "Mp": [0.0880761 * un.M_jup, 0. * un.M_jup, 0. * un.M_jup],  ### Mjup Mc + Md < 28 Mearth, so upper limit.
+        "P": [8.24958, 0.00072, 0.00072],  #### Revised from Spitzer
+        "T0": [2457064.2797, 0.0034	, 0.0034 ],
+        ### Revised from Spitzer IRAC2 and confimred from Trevor; might be better to use Claire's estimate;
+        "occ_dur": [4.66, 0.12, 0.12],  #### From K2
+        #### Add other properties here later.
+        "ecc": [0., 0., 0.],
+        "w": [90., 0., 0.],
+        "rp": [0.0381, 0.0017, 0.0017],
+        "a": [13.19, 0.55, 0.55],  ### Old, from K2
+        "inc": [88.49,0.92,0.72],  ### Old from K2
+        "b": [0.34, 0.19, 0.21] ,
+        "Teq":[968.,31,31]
+    },
+
+    "d": {
+        "Rp": [0.572 * un.R_jup, 0.052 * un.R_jup, 0.047 * un.R_jup],  ### From K2
+        # "Mp":[None, None, None ], #### 3 sigma upper limit 2.2 M jup
+        "Mp": [0.40 * un.M_jup, 0. * un.M_jup, 0. * un.M_jup],  ### Mjup Mb + Md < 120 Mearth
+        "P": [12.4032, 0.0015, 0.0015],  #### Revised from Spitzer
+        "T0": [2457072.3913, 0.003, 0.003],
+        ### Revised from Spitzer IRAC2 and confimred from Trevor; might be better to use Claire's estimate;
+        "occ_dur": [5.59, 0.013, 0.013],  #### From K2
+        #### Add other properties here later.
+        "ecc": [0., 0., 0.],
+        "w": [90., 0., 0.],
+        "rp": [0.0436, 0.0024,0.0021],  ### Revised from Spitzer
+        "a": [17.31, 0.72, 0.72],  ### Old, from K2
+        "inc": [89.04, 0.46, 0.24],  ### Old from K2
+        "b": [0.29, 0.27, 0.20],
+        "Teq":[845,27,27]
+    },
+
+    "e": {
+        "Rp": [0.780 * un.R_jup, 0.075* un.R_jup, 0.064 * un.R_jup],  ### From K2
+        "Mp":[None, None, None ], #### 3 sigma upper limit 2.2 M jup
+        # "Mp": [0.40 * un.M_jup, 0. * un.M_jup, 0. * un.M_jup],  ### Mjup Mb + Md < 120 Mearth
+        "P": [60, 60, 18],  #### Revised from Spitzer
+        "T0": [2457096.6229, 0.0023	, 0.0023 ],
+        ### Revised from Spitzer IRAC2 and confimred from Trevor; might be better to use Claire's estimate;
+        "occ_dur": [7.45, 0.32, 0.25],  #### From K2
+        #### Add other properties here later.
+        "ecc": [0., 0., 0.],
+        "w": [90., 0., 0.],
+        "rp": [0.0699, 0.001, 0.001],  ### Revised from Spitzer
+        "a": [27.0, 1.1, 1.1],  ### Old, from K2
+        "inc": [89.00, 0.46, 0.24],  ### Old from K2
+        "b": [0.36, 0.11, 0.19] ,
+        "Teq":[492,66,104]
     },
 
     "star" : {
