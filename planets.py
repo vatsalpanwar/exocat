@@ -733,7 +733,7 @@ exoplanets = {
         "log_g" : [None,None,None],  ##### log10(cm/s2)
         "lum" : [ 0.243, 0.022, 0.023], #### log10(Lsun)  #### GaiaDR2
         "met" : [None,None,None], ############ dex  ###Bonomo+
-        "coord" : "13:50:06.28s -40:50:08.9s",
+        "coord" : "13:50:06.28 -40:50:08.9",
         "Teff":[5675.*un.K, 75*un.K, 75*un.K],
         "Prot":[2.870, 0.022,0.022], #### days, David+2019
         "vsini":[54.2, 0.7,0.7], #### km/s
@@ -743,6 +743,47 @@ exoplanets = {
 
     "Refs" : {
         "Rizzuto+2020" : "ADSlink",
+    }
+
+},
+
+
+"DS-Tuc-A" : {
+    "b":{
+        "Rp": [ 0.509*un.R_jup, 0.02*un.R_jup, 0.02*un.R_jup ],
+        # "Mp":[None, None, None ],
+        "Mp":[1.3*un.M_jup, 0.*un.M_jup, 0.*un.M_jup ],   #### RV upper limit
+        # "Mp":[0.089345*un.M_jup, 0.*un.M_jup, 0.*un.M_jup ],   #### Chen and Kipping prediction, predicted mass of the planet if it is fully mature
+        "P" : [ 8.13826, 0.000011, 0.000011	],   ## Newton et al. 2019
+        "T0" : [ 2458332.30997, 0.00026,0.00026], ## Newton et al. 2019
+        "occ_dur":[ 3.1764, 0.0118, 0.0094 ],
+        #### Add other properties here later.
+        "ecc":[0.,0.,0.],
+        "w":[90.,0.,0.],
+        "rp":[0.05419,0.00024,0.00024],
+        "a":[20.35, 0.29,0.69  ],
+        "inc":[ 89.50, 0.34,0.41 ],
+        "b" : [0.18,0.13,0.12 ],
+        "Teq": [915, 0., 0.]   ### Bean+ proposal;
+    },
+
+    "star" : {
+        "Rs": [  0.964*un.R_sun,0.029*un.R_sun, 0.029*un.R_sun ], ### Newton et al. 2019
+        "Ms" : [  1.01*un.M_sun,0.06*un.M_sun, 0.06*un.M_sun ], ###  Newton et al. 2019
+        "log_g" : [4.60,0.15,0.15],  ##### log10(cm/s2), Benatti et al. 2019
+        "lum" : [ -0.1608987, 0.0011, 0.0011], #### log10(Lsun)  #### GaiaDR2
+        "met" : [ -0.080,0.06,0.06], ############ dex  ###Benatti et al. 2019
+        "coord" : "23:39:39.48 -69:11:44.7",
+        "Teff":[5428.*un.K, 80*un.K, 80*un.K],
+        "Prot":[2.85, 0.04,0.05], #### days, David+2019
+        "vsini":[17.8, 0.2,0.2], #### km/s
+        "baryRV":[8.05,0.06,0.06] ### km/s  #### this is the vsys
+
+    },
+
+    "Refs" : {
+        "Newton+2019" : "ADSlink",
+        "Benatti+2019": "ADSlink",
     }
 
 },

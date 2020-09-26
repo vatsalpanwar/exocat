@@ -194,7 +194,32 @@ all_planets = {
         "ecc":0.,
     }
 
+    },
+
+"DSTucAb" : {
+
+    "star" : {
+        "jmag" : 7.122,
+        "hmag" : 6.759,
+    },
+
+    "planet" : {
+        "type" : "user",
+        ### "exopath": ### can be populated later
+        "w_unit" : "um",
+        ### "f_unit": "fp/f*" or "rp^2/r*^2" , populate it later
+        "depth":0.05419**2.,
+        # "e_depth": None,
+        "i":89.50,
+        "ars":20.35,
+        "period":8.138268,
+        "transit_duration": 3.1764/24.,
+        "w": 90.,
+        "ecc":0.,
     }
+
+    },
+
 
 
 
