@@ -204,8 +204,8 @@ exoplanets = {
 "WASP-19" : {
     "b":{
         "Rp":[1.392*un.R_jup, 0.04*un.R_jup, 0.04*un.R_jup ],
-        # "Mp":[1.069*un.M_jup, 0.038*un.M_jup, 0.037*un.M_jup ],
-        "Mp": [1.069 , 0.038 , 0.037 ],
+        "Mp":[1.069*un.M_jup, 0.038*un.M_jup, 0.037*un.M_jup ],
+        # "Mp": [1.069 , 0.038 , 0.037 ],
 
         "P" : [0.788838989, 0.000000040,0.000000040],
         # "e":[0.0020,0.014,0.002],
@@ -299,7 +299,8 @@ exoplanets = {
     "c": {
         "Rp": [0.499 * un.R_jup, 0.032 * un.R_jup, 0.029 * un.R_jup],  ### From K2
         # "Mp":[None, None, None ], #### 3 sigma upper limit 2.2 M jup
-        "Mp": [0.0880761 * un.M_jup, 0. * un.M_jup, 0. * un.M_jup],  ### Mjup Mc + Md < 28 Mearth, so upper limit.
+        # "Mp": [0.0880761 * un.M_jup, 0. * un.M_jup, 0. * un.M_jup],  ### Mjup Mc + Md < 28 Mearth, so extreme upper limit.
+        "Mp": [0.0629 * un.M_jup, 0. * un.M_jup, 0. * un.M_jup],  ### Mjup Mc ~ 20 Mearth , reasonable upper limit
         "P": [8.24958, 0.00072, 0.00072],  #### Revised from Spitzer
         "T0": [2457064.2797, 0.0034	, 0.0034 ],
         ### Revised from Spitzer IRAC2 and confimred from Trevor; might be better to use Claire's estimate;
@@ -311,7 +312,9 @@ exoplanets = {
         "a": [13.19, 0.55, 0.55],  ### Old, from K2
         "inc": [88.49,0.92,0.72],  ### Old from K2
         "b": [0.34, 0.19, 0.21] ,
-        "Teq":[968.,31,31]
+        # "Teq":[968.,31,31], ### ExoArchive
+        "Teq":[1000.,0.,0.]  ## Mean
+        # "Teq":[1120.,0,0], #### Bean's proposal
     },
 
     "d": {
@@ -329,7 +332,9 @@ exoplanets = {
         "a": [17.31, 0.72, 0.72],  ### Old, from K2
         "inc": [89.04, 0.46, 0.24],  ### Old from K2
         "b": [0.29, 0.27, 0.20],
-        "Teq":[845,27,27]
+        # "Teq":[845,27,27],
+        "Teq": [890., 0, 0],  #### Bean's proposal
+
     },
 
     "e": {
@@ -752,8 +757,9 @@ exoplanets = {
     "b":{
         "Rp": [ 0.509*un.R_jup, 0.02*un.R_jup, 0.02*un.R_jup ],
         # "Mp":[None, None, None ],
-        "Mp":[1.3*un.M_jup, 0.*un.M_jup, 0.*un.M_jup ],   #### RV upper limit
-        # "Mp":[0.089345*un.M_jup, 0.*un.M_jup, 0.*un.M_jup ],   #### Chen and Kipping prediction, predicted mass of the planet if it is fully mature
+        # "Mp":[1.3*un.M_jup, 0.*un.M_jup, 0.*un.M_jup ],   #### RV upper limit
+        "Mp":[0.089345*un.M_jup, 0.*un.M_jup, 0.*un.M_jup ],   #### Chen and Kipping prediction, predicted mass of the planet if it is fully mature
+        # "Mp":[0.0188735*un.M_jup, 0.*un.M_jup, 0.*un.M_jup ],
         "P" : [ 8.13826, 0.000011, 0.000011	],   ## Newton et al. 2019
         "T0" : [ 2458332.30997, 0.00026,0.00026], ## Newton et al. 2019
         "occ_dur":[ 3.1764, 0.0118, 0.0094 ],

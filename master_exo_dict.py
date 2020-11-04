@@ -184,7 +184,7 @@ all_planets = {
         ### "exopath": ### can be populated later
         "w_unit" : "um",
         ### "f_unit": "fp/f*" or "rp^2/r*^2" , populate it later
-        "depth":0.0396**2.,
+        "depth":0.0667**2.,
         # "e_depth": None,
         "i":89.34,
         "ars":11.70,
@@ -196,7 +196,7 @@ all_planets = {
 
     },
 
-"DSTucAb" : {
+"DS-Tuc-Ab" : {
 
     "star" : {
         "jmag" : 7.122,
@@ -220,8 +220,78 @@ all_planets = {
 
     },
 
+"V1298-Taub" : {
+
+    "star" : {
+        "jmag" : 8.687,
+        "hmag" : 8.191,
+    },
+
+    "planet" : {
+        "type" : "user",
+        ### "exopath": ### can be populated later
+        "w_unit" : "um",
+        ### "f_unit": "fp/f*" or "rp^2/r*^2" , populate it later
+        "depth":0.0713**2.,
+        # "e_depth": None,
+        "i":89.35,
+        "ars":27.6,
+        "period":24.141445,   ### update from John Livingston
+        "transit_duration": 6.42/24.,
+        "w": 90.,
+        "ecc":0.,
+    }
+
+    },
 
 
+"V1298-Tauc" : {
+
+    "star" : {
+        "jmag" : 8.687,
+        "hmag" : 8.191,
+    },
+
+    "planet" : {
+        "type" : "user",
+        ### "exopath": ### can be populated later
+        "w_unit" : "um",
+        ### "f_unit": "fp/f*" or "rp^2/r*^2" , populate it later
+        "depth":0.0381**2.,
+        # "e_depth": None,
+        "i":88.49,
+        "ars":13.19,
+        "period":8.249147,   ### update from John Livingston
+        "transit_duration": 4.66/24.,
+        "w": 90.,
+        "ecc":0.,
+    }
+
+    },
+
+"V1298-Taud" : {
+
+    "star" : {
+        "jmag" : 8.687,
+        "hmag" : 8.191,
+    },
+
+    "planet" : {
+        "type" : "user",
+        ### "exopath": ### can be populated later
+        "w_unit" : "um",
+        ### "f_unit": "fp/f*" or "rp^2/r*^2" , populate it later
+        "depth":0.0436**2.,
+        # "e_depth": None,
+        "i":88.49,
+        "ars":17.31,
+        "period":12.401369,   ### update from John Livingston
+        "transit_duration": 5.59/24.,
+        "w": 90.,
+        "ecc":0.,
+    }
+
+    },
 
 }
 
