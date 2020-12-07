@@ -7,7 +7,7 @@ import planets
 import importlib
 
 #Do importlib.reload(planets) everytime you update the file 
-importlib.reload(planets
+importlib.reload(planets)
 # For general planet and stellar host properties:
 
 star = "HIP67522"
