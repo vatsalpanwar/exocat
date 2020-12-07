@@ -2,7 +2,7 @@ exocat
 
 ```python
 
-sys.path.append(os.path.abspath(<path to exocat>))
+sys.path.append(os.path.abspath(<path to exocat folder>))
 import planets
 
 Do importlib.reload(planets) everytime you update the file 
